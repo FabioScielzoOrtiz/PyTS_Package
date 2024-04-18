@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="PyTS",
+    name="TimeSeriesPy",
     version="0.0.1",
     author="Fabio Scielzo Ortiz",
     author_email="fabioscielzo98@gmail.com",
     description="A package for time series forecasting.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/FabioScielzoOrtiz/PyTS_Package",  # add your project URL here
+    url="https://github.com/FabioScielzoOrtiz/TimeSeriesPy_Package",  # add your project URL here
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
